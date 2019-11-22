@@ -1,0 +1,50 @@
+<web-app>
+
+<servlet>
+   <servlet-name>Register</servlet-name>
+   <servlet-class>Register</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>Register</servlet-name>
+   <url-pattern>/Register</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+   <servlet-name>SignIn</servlet-name>
+   <servlet-class>SignIn</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>SignIn</servlet-name>
+   <url-pattern>/SignIn</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+   <servlet-name>EditInformation</servlet-name>
+   <servlet-class>EditInformation</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>EditInformation</servlet-name>
+   <url-pattern>/EditInformation</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+   <servlet-name>DbInfo</servlet-name>
+   <servlet-class>DbInfo</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>DbInfo</servlet-name>
+   <url-pattern>/DbInfo</url-pattern>
+</servlet-mapping>
+
+
+
+
+
+</web-app>
